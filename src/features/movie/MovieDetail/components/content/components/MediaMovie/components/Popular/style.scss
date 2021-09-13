@@ -1,0 +1,20 @@
+.popular_detail {
+  ul {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 0;
+    &::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      background-color: #cfcfcf;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &::-webkit-scrollbar {
+      height: 8px;
+      width: 8px;
+    }
+  }
+}
